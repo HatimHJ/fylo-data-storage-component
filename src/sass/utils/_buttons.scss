@@ -1,0 +1,21 @@
+
+// the toggler
+.btn{
+  cursor: pointer;
+  transition: all .3s;
+  border: none;
+  width: 60%;
+  max-width: 200px;
+  padding: 10px;
+}
+
+.cta{
+  background: none;
+  box-shadow: 0 0 0 2px var(--white);
+  color: var(--white);
+  text-transform: uppercase;    
+  &:hover{
+    background-color: var(--white);
+    color: var(--dark-violet);
+  }  
+}

@@ -13,9 +13,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "CI= react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "sc":"sass -w src\\sass\\main.scss:src\\index.css -s compressed"
   },
   "eslintConfig": {
     "extends": [

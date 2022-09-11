@@ -1,0 +1,83 @@
+// =================================================
+@for $i from 1 through 8 {
+  .pt-#{$i} {
+    padding-top: #{calc($i / 2)}rem;
+  }
+  .pb-#{$i} {
+    padding-bottom: #{calc($i / 2)}rem;
+  }
+  .pl-#{$i} {
+    padding-left: #{calc($i / 2)}rem;
+  }
+  .pr-#{$i} {
+    padding-right: #{calc($i / 2)}rem;
+  }
+  .px-#{$i} {
+    padding-right: #{calc($i / 2)}rem;
+    padding-left: #{calc($i / 2)}rem;
+  }
+  .py-#{$i} {
+    padding-top: #{calc($i / 2)}rem;
+    padding-bottom: #{calc($i / 2)}rem;
+  }
+  .mt-#{$i} {
+    margin-top: #{calc($i / 2)}rem;
+  }
+  .mb-#{$i} {
+    margin-bottom: #{calc($i / 2)}rem;
+  }
+  .ml-#{$i} {
+    margin-left: #{calc($i / 2)}rem;
+  }
+  .mr-#{$i} {
+    margin-right: #{calc($i / 2)}rem;
+  }
+  .mx-#{$i} {
+    margin-right: #{calc($i / 2)}rem;
+    margin-left: #{calc($i / 2)}rem;
+  }
+  .my-#{$i} {
+    margin-top: #{calc($i / 2)}rem;
+    margin-bottom: #{calc($i / 2)}rem;
+  }
+}
+
+
+.opa-75{
+  opacity: .75;
+}
+.opa-50{
+  opacity: .50;
+}
+.opa-25{
+  opacity: .25;
+}
+
+// =================================================
+.img-bw{filter: brightness(0) invert(1);}
+
+.avatar{
+  width: 40px;height: 40px;
+  border-radius: 50%;
+  margin: 0%;
+}
+
+.clearfix{
+  clear: both;
+}
+
+.hidden{display: none;}
+
+.error-border{border: 1px solid #ff6347 !important;}
+.success-border{border: 1px solid #3c9f8f !important;}
+
+.error{
+  color: #ff6347;
+}
+.success{
+  color: #3c9f8f;
+}
+
+.block{
+  display: block;
+}

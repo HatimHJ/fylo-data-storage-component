@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+ul{
+  list-style: none;
+}
+
+.sr-only{
+  position: absolute;
+  top: -10rem;
+  left: -10rem;
+  visibility: hidden;
+  width: 1px;height: 10px;
+}

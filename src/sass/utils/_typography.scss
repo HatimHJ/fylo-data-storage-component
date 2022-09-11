@@ -1,0 +1,30 @@
+html{
+  font-size: 15px;
+  font-family: 'Karla', sans-serif;
+}
+// =================================================
+.barlow{font-family: 'Barlow', sans-serif;}
+.barlow-c{font-family: 'Barlow Condensed', sans-serif;}
+.poppins{font-family: 'Poppins', sans-serif;}
+.raleway{font-family: 'Raleway', sans-serif;}
+.open-sans{font-family: 'Open Sans', sans-serif;}
+.bai{font-family: 'Bai Jamjuree', sans-serif;}
+.montserrat{font-family: 'Montserrat', sans-serif;}
+.karla{font-family: 'Karla', sans-serif;}
+.dm{font-family: 'DM Serif Display', serif;}
+// =================================================
+.text-center{text-align: center;}
+.text-right{text-align: right;}
+.text-left{text-align: left;}
+// =================================================
+@for $i from 1 through 12 {
+  .fs-#{$i} {
+    font-size: #{calc($i / 4)}rem;
+  }
+  @if ($i <= 7) {
+    .fw-#{$i} {
+      font-weight: #{$i}00;
+    }      
+  }
+}
+// ================================================

@@ -1,0 +1,20 @@
+// Primary
+$primary-red:hsl(0, 78%, 62%) ;
+$primary-cyan:hsl(180, 62%, 55%) ;
+$primary-orange:hsl(34, 97%, 64%);
+$primary-blue:hsl(212, 86%, 64%) ;
+
+// Neutral
+$neutral-dark-blue: hsl(234, 12%, 34%);
+$neutral-grayish-blue: hsl(229, 6%, 66%);
+$neutral-light-gray: hsl(0, 0%, 98%);
+
+
+.copyright{
+  padding: 1rem;
+  text-align: center;
+  background-color:darken($color:  $neutral-dark-blue, $amount: 10);
+  font-size: .8rem;
+  color: $neutral-light-gray;
+  a{color: $primary-blue;}
+}
